@@ -1,0 +1,22 @@
+{
+  "1": {
+    "class_type": "SynVowRHPresetGallery",
+    "inputs": {
+      "preset": "街头大楼 3D 立体广告看板",
+      "gpt_style": "sunburst",
+      "resolution": "1K",
+      "aspect_ratio": "1:1",
+      "seed": 0
+    }
+  },
+  "2": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "1",
+        0
+      ],
+      "filename_prefix": "SynVow-RH-Gallery"
+    }
+  }
+}
